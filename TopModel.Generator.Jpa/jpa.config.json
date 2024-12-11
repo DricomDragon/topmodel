@@ -120,8 +120,8 @@
         {
           "type": "string",
           "description": "Mode de génération de l'API Client ('Client' ou 'Server')",
-          "default": "restClient",
-          "enum": ["RrestTemplate", "RestClient", "FeignClient"]
+          "default": "RestClient",
+          "enum": ["RestTemplate", "RestClient", "FeignClient"]
         },
         {
           "type": "string",
